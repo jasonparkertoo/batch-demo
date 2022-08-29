@@ -1,5 +1,5 @@
-package org.example.batch;
+package org.example.batch.api;
 
-public interface FeedReader {
-
+public interface FeedReader<T> {
+    T read();
 }
